@@ -11,9 +11,7 @@ https://github.com/Agrossio/IntegradorPWH-Educacion-IT
 
 ## Pagina Deployada:
 
-<!-- [<img src="http://www.google.com.au/images/nav_logo7.png">](http://google.com.au/) -->
+[<a href="https://wwwapas.matiabossio.com.ar/" target="_blank"><img src="./pics/Preview.PNG"></a>](https://wwwapas.matiabossio.com.ar/)
 
 [![Thumbnail](./pics/Preview.PNG)](https://wwwapas.matiabossio.com.ar/)
 
-
-![Thumbnail](./pics/Preview.PNG)
