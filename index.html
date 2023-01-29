@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Proyecto Integrador - Abossio && Sansberro</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <p><strong class="coiny">wwwapas</strong></p>
+        <ul class="navBar-list">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="presentacion">
+        <div>
+          <p class="titulo-parrafo">somos</p>
+          <h1 class="coiny titulo-marca">wwwapas</h1>
+          <h2 class="subtitulo separador-texto">
+            social media managers | creadoras de contenido
+          </h2>
+          <p class="presentacion-parrafo">
+            Nos encargamos de construir, gestionar y administrar la comunidad
+            online de tu marca, empresa o negocio
+            <strong
+              >¡Creamos relaciones estables y duraderas con tus
+              clientes!</strong
+            >
+          </p>
+        </div>
+        <img src="./pics/foto.png" alt="mujeres trabajando con laptops" />
+      </section>
+
+      <section class="nosotras">
+        <div>
+          <h3 class="separador-texto titulo-nosotras">
+            ¡Hola! Somos SOFI & JULIA,
+          </h3>
+          <p class="parrafo-nosotras">
+            las social media managers, las creadoras de contenido, las
+            copywriters, las generadoras de leads, las diseñadoras, las
+            estrategas en marketing digital, las potenciadoras de ventas, el
+            posicionamiento de tu marca.
+            <strong
+              >¡Somos el complemento que necesitás para hacer crecer tu marca!
+              ¡Somos wwwapas!</strong
+            >
+          </p>
+        </div>
+        <div>
+          <h3 class="separador-texto titulo-nosotras">
+            GESTIONAMOS TUS REDES SOCIALES
+          </h3>
+          <p class="parrafo-nosotras">
+            La transformación digital no es solo para grandes compañías, todas
+            las empresas deben emprenderla cuanto antes y aquí es donde podemos
+            asistirte. Armamos estrategias a medida para tu empresa, marca o
+            producto.
+            <strong>
+              ¡Aumentá tu presencia digital y generá nuevas ventas y
+              contactos!</strong
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="servicios" class="servicios">
+        <img src="./pics/img-servicios.png" alt="Imagen de Brainstorming" />
+        <div>
+          <h3 class="separador-texto titulo-servicios">Servicios</h3>
+          <ol class="lista-servicios">
+            <li>Análisis de perfil (Benchmarking)</li>
+            <li>Revisión y activación de canales</li>
+            <li>Gestión, creación y diseño de contenido</li>
+            <li>Respuestas a mensajes y consultas</li>
+            <li>
+              Segmentación de promociones según el público objetivo de la pauta
+              publicitaria
+            </li>
+            <li>
+              Diagramamos un calendario que se ajuste a los objetivos de la
+              empresa
+            </li>
+            <li class="li-resaltado">¡Empezamos a comunicar!</li>
+          </ol>
+        </div>
+      </section>
+
+      <section>
+        <div id="contacto">
+          <div class="contenedor-texto-contacto">
+            <h3 class="pregunta">¿Querés que nos</h3>
+            <h3 class="pregunta">contactemos con vos?</h3>
+            <h4 class="subtitulo-contacto">Envianos tu consulta >></h4>
+          </div>
+
+          <form action="https://asj-desafio-4-ejercicio-2.000webhostapp.com/formulario.php" method="post">
+            <label for="nombre" class="mb-3">Nombre <span>*</span></label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Juan García"
+              class="separador-texto input"
+              required
+            />
+
+            <label for="email" class="mb-3">Email <span>*</span></label>
+            <input
+              required
+              name="email"
+              type="email"
+              id="email"
+              placeholder="info@mimail.com"
+              class="separador-texto input"
+            />
+
+            <label for="comentarios" class="mb-3">Mensaje <span>*</span></label>
+            <textarea
+              name="comentarios"
+              id="comentarios"
+              class="separador-texto"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+
+            <div class="button-container">
+              <button type="submit">Enviar consulta</button>
+              <button type="reset">Borrar</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="img-container">
+          <div>
+            <p id="redes">redes</p>
+            <p id="redes">wwwapas</p>
+          </div>
+          <a href="https://www.instagram.com/educacionit/?hl=es" target="_blank"
+            ><img src="pics/instagram-icon.png" alt="Instagram Logo"
+          /></a>
+          <a href="https://dribbble.com/tags/social-media" target="_blank">
+            <img src="pics/dribbble-icon.png" alt="Dribble Logo" />
+          </a>
+          <a href="https://ar.linkedin.com/school/educacionit/" target="_blank"
+            ><img src="pics/linkedin-icon.png" alt="LinkedIn Logo"
+          /></a>
+          <a href="https://es-la.facebook.com/EducacionIT/" target="_blank">
+            <img src="pics/facebook-icon.png" alt="Facebook Logo" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-footer">
+        <p class="coiny">wwwapas</p>
+        <a class="mail" href="mailto: wwwapas_sm@gmail.com"
+          >wwwapas_sm@gmail.com</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
