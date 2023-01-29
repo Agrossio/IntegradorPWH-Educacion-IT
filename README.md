@@ -8,3 +8,7 @@
 ``
 https://github.com/Agrossio/IntegradorPWH-Educacion-IT
 ``
+
+## Preview:
+
+![Thumbnail](./pics/Preview.PNG)
