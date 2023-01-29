@@ -1,4 +1,4 @@
-# Proyecto Integrador CSS + HTML Curso Programacion Web Educacion IT
+# Proyecto Integrador CSS + HTML - Curso Programacion Web Educacion IT
 
 ## Integrantes:
     Lucas Sansberro
